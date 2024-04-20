@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main(){
-    int n;
-    scanf("%d", &n);
-    int arr[n];
+    int num;
+    scanf("%d", &num);
+    int arr[num];
 
-    for(int i = 0; i < n;i++){
+    for(int i = 0; i < num;i++){
         scanf("%d", &arr[i]);
     }
 
     int sum = 0;
 
-    for(int j = 0; j < n; j++){
+    for(int j = 0; j < num; j++){
 
         printf("%d = %d ", j, arr[j]);
 
@@ -20,4 +20,5 @@ int main(){
     return 0;
 
     // For Practice Purpose 
+    // Problem accepted
 }
